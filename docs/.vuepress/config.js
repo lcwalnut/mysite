@@ -1,4 +1,4 @@
-const { description } = require('../../package')
+const { description } = require('../../package');
 
 module.exports = {
   /**
@@ -49,9 +49,10 @@ module.exports = {
         text: 'Coding',
         link: '/coding/',
         items:[
-          {text:'数据交互笔记',link:'/coding/'},
+          {text:'数据交互笔记',link:'/coding/aboutdata/'},
           {text:'Vuepress',link:'/coding/vuepress/'},
           {text:'Webpack',link:'/coding/webpack/'},
+          {text:'Linux',link:'/coding/linux/'},
         ]
       },
       {
@@ -80,11 +81,14 @@ module.exports = {
       '/coding/': [
         {
           title: '数据交互笔记',
-          collapsable: false,
+          collapsable: true,
+          children: [
+            'aboutdata',
+          ]
         },
         {
           title: 'Vuepress',
-          collapsable: false,
+          collapsable: true,
           children: [
             'vuepress',
 			      'vuepressconfig',
@@ -93,16 +97,22 @@ module.exports = {
         },
         {
           title: 'Webpack',
-          collapsable: false,
+          collapsable: true,
           children: [
             'webpack',
 			      'webpackloader',
+          ]
+        },
+        {
+          title: 'Linux',
+          collapsable: true,
+          children: [
+            'linux',
           ]
         }
       ],
     },
   },
-
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
@@ -110,6 +120,6 @@ module.exports = {
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
     '@vuepress/plugin-search',
-    // '@vuepress/plugin-pwa',
+    // '@vuepress-plugin-gitalk'
   ]
 }

@@ -11,7 +11,7 @@
 #   details: Feature 2 Description
 # - title: About
 #   details: Feature 3 Description
-# footer: Made by ccwuyu with ❤️
+footer: Made by ccwuyu with ❤️
 # layout:Layout
 ---
 
@@ -20,7 +20,7 @@
 ::: tip
 Please wait the content a few days .
 
-Or please view a note about data  [click here please →](/coding/) 
+Or please view a note about data  [click here please →](/coding/aboutdata.md) 
 
 Or please view some bugs about coding  [click here please →](/blog/) 
 

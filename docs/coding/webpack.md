@@ -1,8 +1,7 @@
 ---
 tags: 
-  - theme
   - docs
-  - vuepress
+  - webpack
 author: ccwuyu 
 ---
 

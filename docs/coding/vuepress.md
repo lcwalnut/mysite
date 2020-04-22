@@ -1,6 +1,5 @@
 ---
 tags: 
-  - theme
   - docs
   - vuepress
 author: ccwuyu 
