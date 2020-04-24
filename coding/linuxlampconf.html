@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Linux  LAMP配置 | CCWUYU&#39;s Site About Code</title>
+    <meta name="description" content="Some Things About Code .">
+    <meta name="generator" content="VuePress 1.4.0">
+    <link name="shortcut icon" content="/images/favicon.ico">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/mysite/assets/css/0.styles.5bcf2ce5.css" as="style"><link rel="preload" href="/mysite/assets/js/app.a43bba06.js" as="script"><link rel="preload" href="/mysite/assets/js/3.6b13731c.js" as="script"><link rel="preload" href="/mysite/assets/js/2.56b9bd7b.js" as="script"><link rel="preload" href="/mysite/assets/js/17.a5fba108.js" as="script"><link rel="prefetch" href="/mysite/assets/js/10.009f4d87.js"><link rel="prefetch" href="/mysite/assets/js/11.21851f40.js"><link rel="prefetch" href="/mysite/assets/js/12.b6253faa.js"><link rel="prefetch" href="/mysite/assets/js/13.6fd75d32.js"><link rel="prefetch" href="/mysite/assets/js/14.21921766.js"><link rel="prefetch" href="/mysite/assets/js/15.e6911800.js"><link rel="prefetch" href="/mysite/assets/js/16.5cbcbc38.js"><link rel="prefetch" href="/mysite/assets/js/18.932f8d55.js"><link rel="prefetch" href="/mysite/assets/js/19.c4c6d5de.js"><link rel="prefetch" href="/mysite/assets/js/20.6ad558ca.js"><link rel="prefetch" href="/mysite/assets/js/21.e8adb19e.js"><link rel="prefetch" href="/mysite/assets/js/22.7ba3aff6.js"><link rel="prefetch" href="/mysite/assets/js/23.4f330d9c.js"><link rel="prefetch" href="/mysite/assets/js/24.48ee5c1b.js"><link rel="prefetch" href="/mysite/assets/js/25.f802549b.js"><link rel="prefetch" href="/mysite/assets/js/4.58bac588.js"><link rel="prefetch" href="/mysite/assets/js/5.bc16893c.js"><link rel="prefetch" href="/mysite/assets/js/6.0a4530ef.js"><link rel="prefetch" href="/mysite/assets/js/7.7aab4932.js"><link rel="prefetch" href="/mysite/assets/js/8.788d9a91.js"><link rel="prefetch" href="/mysite/assets/js/9.50180911.js">
+    <link rel="stylesheet" href="/mysite/assets/css/0.styles.5bcf2ce5.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container reform"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/mysite/" class="home-link router-link-active"><img src="/mysite/images/icon.png" alt="CCWUYU's Site About Code" class="logo"> <span class="site-name can-hide">CCWUYU's Site About Code</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/mysite/" class="nav-link"><!---->
+Home</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><!----> <span class="title">Coding</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/mysite/coding/aboutdata/" class="nav-link"><!---->
+数据交互笔记</a></li><li class="dropdown-item"><!----> <a href="/mysite/coding/vuepress/" class="nav-link"><!---->
+Vuepress</a></li><li class="dropdown-item"><!----> <a href="/mysite/coding/webpack/" class="nav-link"><!---->
+Webpack</a></li><li class="dropdown-item"><!----> <a href="/mysite/coding/linux/" class="nav-link"><!---->
+Linux</a></li></ul></div></div><div class="nav-item"><a href="/mysite/blog/" class="nav-link"><!---->
+Blog</a></div><div class="nav-item"><a href="/mysite/tags/" class="nav-link"><!---->
+Tags</a></div><div class="nav-item"><a href="/mysite/about/" class="nav-link"><!---->
+About</a></div><div class="nav-item"><a href="https://github.com/lcwalnut" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://www.ccwuyu.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  WebSite
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <!----> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/mysite/" class="nav-link"><!---->
+Home</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><!----> <span class="title">Coding</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/mysite/coding/aboutdata/" class="nav-link"><!---->
+数据交互笔记</a></li><li class="dropdown-item"><!----> <a href="/mysite/coding/vuepress/" class="nav-link"><!---->
+Vuepress</a></li><li class="dropdown-item"><!----> <a href="/mysite/coding/webpack/" class="nav-link"><!---->
+Webpack</a></li><li class="dropdown-item"><!----> <a href="/mysite/coding/linux/" class="nav-link"><!---->
+Linux</a></li></ul></div></div><div class="nav-item"><a href="/mysite/blog/" class="nav-link"><!---->
+Blog</a></div><div class="nav-item"><a href="/mysite/tags/" class="nav-link"><!---->
+Tags</a></div><div class="nav-item"><a href="/mysite/about/" class="nav-link"><!---->
+About</a></div><div class="nav-item"><a href="https://github.com/lcwalnut" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://www.ccwuyu.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  WebSite
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>数据交互笔记</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Vuepress</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Webpack</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Linux</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/mysite/coding/linux.html" class="sidebar-link">About Linux</a></li><li><a href="/mysite/coding/linuxbaseconf.html" class="sidebar-link">Linux  基础配置</a></li><li><a href="/mysite/coding/linuxlampconf.html" class="active sidebar-link">Linux  LAMP配置</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/mysite/coding/linuxlampconf.html#apache" class="sidebar-link">APACHE</a></li><li class="sidebar-sub-header"><a href="/mysite/coding/linuxlampconf.html#php" class="sidebar-link">PHP</a></li><li class="sidebar-sub-header"><a href="/mysite/coding/linuxlampconf.html#mysql" class="sidebar-link">MYSQL</a></li></ul></li></ul></section></li></ul> </aside> <main class="page" data-v-71046f2c> <div class="content theme-default-content content__default" data-v-71046f2c><h1 id="linux-lamp配置"><a href="#linux-lamp配置" class="header-anchor">#</a> Linux  LAMP配置</h1> <h2 id="apache"><a href="#apache" class="header-anchor">#</a> APACHE</h2> <h3 id="安装"><a href="#安装" class="header-anchor">#</a> 安装</h3> <ol><li>安装<div class="language-shell extra-class"><pre class="language-shell"><code>yum <span class="token function">install</span> httpd
+</code></pre></div></li> <li>启动<div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">service</span> httpd start
+</code></pre></div></li> <li>检查服务状态<div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">service</span> httpd status
+</code></pre></div></li> <li>关闭/重启<div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">service</span> httpd stop/restart
+</code></pre></div></li></ol> <h3 id="设置"><a href="#设置" class="header-anchor">#</a> 设置</h3> <p>一般conf文件存放地址为 <code>/etc/httpd/conf/httpd.conf</code></p> <ul><li>配置服务器<div class="language-shell extra-class"><pre class="language-shell"><code><span class="token operator">&lt;</span>Directory <span class="token string">&quot;/var/www&quot;</span><span class="token operator">&gt;</span>
+    AllowOverride None
+    <span class="token comment"># Allow open access:</span>
+    Require all granted
+<span class="token operator">&lt;</span>/Directory<span class="token operator">&gt;</span>
+</code></pre></div></li> <li>配置虚拟主机 - 基于域名<div class="language-shell extra-class"><pre class="language-shell"><code><span class="token operator">&lt;</span>VirtualHost *:8<span class="token operator"><span class="token file-descriptor important">0</span>&gt;</span>
+  ServerName www.example.com
+  DocumentRoot <span class="token string">&quot;/www/domain&quot;</span>
+  <span class="token operator">&lt;</span>Directory <span class="token string">&quot;/var/www&quot;</span><span class="token operator">&gt;</span>
+      AllowOverride None
+      <span class="token comment"># Allow open access:</span>
+      Require all granted
+  <span class="token operator">&lt;</span>/Directory<span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span>/VirtualHost<span class="token operator">&gt;</span>
+</code></pre></div></li> <li>配置虚拟主机 - 基于IP<div class="language-shell extra-class"><pre class="language-shell"><code>待续
+</code></pre></div></li></ul> <h3 id="遇到的问题"><a href="#遇到的问题" class="header-anchor">#</a> 遇到的问题</h3> <div class="custom-block tip"><p class="custom-block-title">问题描述 ：配置后无法访问</p> <div class="language- extra-class"><pre class="language-text"><code>You don't have permission to access /index.html on this server
+</code></pre></div><p>解决方案：</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token number">1</span>. 防火墙端口
+<span class="token number">2</span>. apache设置
+<span class="token number">3</span>. Linux 宽松模式
+</code></pre></div></div> <h2 id="php"><a href="#php" class="header-anchor">#</a> PHP</h2> <h3 id="安装配置"><a href="#安装配置" class="header-anchor">#</a> 安装配置</h3> <ol><li><p>安装</p> <div class="language-shell extra-class"><pre class="language-shell"><code>yum <span class="token function">install</span> epel-release
+
+<span class="token function">rpm</span> -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
+
+yum <span class="token function">install</span> php56w-fpm
+</code></pre></div></li> <li><p>安装扩展</p> <div class="language-shell extra-class"><pre class="language-shell"><code>yum <span class="token function">install</span>  -y   php56w-cli  php56w-common  php56w-gd  php56w-mcrypt  php56w-nbstring  php56w-sql
+</code></pre></div></li> <li><p>开启服务状态</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">service</span> php-fpm start
+</code></pre></div></li></ol> <h3 id="关于php的-apache-设置"><a href="#关于php的-apache-设置" class="header-anchor">#</a> 关于PHP的 Apache 设置</h3> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># httpd.conf</span>
+<span class="token operator">&lt;</span>FilesMatch .php$<span class="token operator">&gt;</span>
+    setHandler <span class="token string">&quot;proxy:fcgi://127.0.0.1:9000&quot;</span>
+<span class="token operator">&lt;</span>/FilesMatch<span class="token operator">&gt;</span>
+</code></pre></div><h3 id="安装遇到问题"><a href="#安装遇到问题" class="header-anchor">#</a> 安装遇到问题</h3> <div class="custom-block tip"><p class="custom-block-title">问题描述 ：提示版本冲突</p> <div class="language-shell extra-class"><pre class="language-shell"><code>您可以尝试添加 --skip-broken 选项来解决该问题
+您可以尝试执行：rpm -Va --nofiles --nodigest
+</code></pre></div><p>解决方案：</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># 删除冲突文件</span>
+yum remove php-common
+
+<span class="token comment"># 清除缓存</span>
+yum clean all
+
+<span class="token comment"># 重新安装，每个都带版本号 [56w]</span>
+yum <span class="token function">install</span>  -y   php56w-cli  php56w-common  php56w-gd  php56w-mcrypt  php56w-nbstring  php56w-sql
+</code></pre></div></div> <h2 id="mysql"><a href="#mysql" class="header-anchor">#</a> MYSQL</h2> <h3 id="安装-2"><a href="#安装-2" class="header-anchor">#</a> 安装</h3> <ol><li>从官网获取压缩包<div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">wget</span> https://dev.mysql.com/get/mysql80-community-release-el7-1.noarch.rpm
+<span class="token function">rpm</span> -ivh mysql80-community-release-el7-1.noarch.rpm
+</code></pre></div></li> <li>查询maria是否存在，如果存在，移除它<div class="language-shell extra-class"><pre class="language-shell"><code>yum list installed <span class="token operator">|</span> <span class="token function">grep</span> maria
+yum remove mariadb*****
+</code></pre></div></li> <li>安装MySQL服务<div class="language-shell extra-class"><pre class="language-shell"><code>yum <span class="token function">install</span> mysql-community-server
+</code></pre></div></li> <li>常用指令<div class="language-shell extra-class"><pre class="language-shell"><code>systemctl start mysqld.service
+systemctl stop mysqld.service
+systemctl restart mysqld.service
+</code></pre></div></li></ol> <h3 id="配置"><a href="#配置" class="header-anchor">#</a> 配置</h3> <p>配置文件 <code>/etc/my.cnf mysql</code></p> <ul><li>查找临时密码<div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">cat</span> /var/log/mysqld.log <span class="token operator">|</span> <span class="token function">grep</span> password
+</code></pre></div></li> <li>修改密码<div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># mysql8.0以上密码策略限制必须要大小写加数字特殊符号</span>
+<span class="token comment"># “;”  句尾分号不能少！！！！！</span>
+alter user <span class="token string">'root'</span>@<span class="token string">'localhost'</span> identified by <span class="token string">'Xiao@058'</span><span class="token punctuation">;</span>
+</code></pre></div></li></ul></div> <section class="tags" data-v-71046f2c><span class="tagPopup" data-v-71046f2c><a href="/mysite/tags/?tag=docs" class="tag" data-v-71046f2c>docs</a></span><span class="tagPopup" data-v-71046f2c><a href="/mysite/tags/?tag=linux" class="tag" data-v-71046f2c>linux</a></span></section> <footer class="page-edit" data-v-71046f2c><!----> <!----></footer> <div class="page-nav" data-v-71046f2c><p class="inner" data-v-71046f2c><span class="prev" data-v-71046f2c>
+        ←
+        <a href="/mysite/coding/linuxbaseconf.html" class="prev" data-v-71046f2c>Linux  基础配置</a></span> <!----></p></div> <div id="gitalk-container" data-v-71046f2c></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/mysite/assets/js/app.a43bba06.js" defer></script><script src="/mysite/assets/js/3.6b13731c.js" defer></script><script src="/mysite/assets/js/2.56b9bd7b.js" defer></script><script src="/mysite/assets/js/17.a5fba108.js" defer></script>
+  </body>
+</html>
