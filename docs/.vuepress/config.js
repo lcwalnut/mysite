@@ -108,6 +108,8 @@ module.exports = {
           collapsable: true,
           children: [
             'linux',
+            'linuxbaseconf',
+            'linuxlampconf',
           ]
         }
       ],
